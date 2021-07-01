@@ -12,7 +12,7 @@ public class DiplomaUtil {
             media += disciplina.getNota();
         }
 
-        return media;
+        return media / disciplinas.size();
     }
 
     public static String mensagem(double nota) {
